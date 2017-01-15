@@ -1,0 +1,17 @@
+################################################################################
+#                                                                              #
+#                                  BONUS                                       #
+#                                                                              #
+################################################################################
+
+CONSIGNE:
+Créer un petit jeu "le juste prix"
+Vous devez créer un prix qui serais un nombre aléatoire entre 0 et 100
+Vous devez ensuite demander à l'utilisateur de rentré une valeur afin de trouver
+ce prix
+Si l'utilisateur entre une valeur trop petite "Trop petit !" sera afficher
+Si l'utilisateur entre une valeur trop grande "Trop grand !" sera afficher
+Enfin si l'utilisateur trouve la bonne valeur "Bravo !!" sera afficher et le
+jeu doit s'arrêter
+Code de départ:
+Rien ! :)

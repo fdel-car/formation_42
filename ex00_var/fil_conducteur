@@ -1,0 +1,21 @@
+Premier chapitre : variables
+
+Une calculatrice c'est bien pratique pas vrai ? On va reproduire son
+comportement le plus basique. Le chiffre d'affaire de votre boite est
+en hausse en ce mois de février, en effet, il est de 23% superieur a celui
+du mois dernier qui est de 166,018 $, lui même inferieur de 21,420 $ a celui
+de novembre.
+
+Trouver le chiffre d'affaire de novembre.
+Trouver le chiffre d'affaire de février.
+
+Pseudo-code :
+variable mois_de_janvier = 166018;
+// Calculer le chiffre d'affaire de novembre
+variable mois_de_novembre = mois_de_janvier + 21420;
+// Calculer le chiffre d'affaire de février
+variable mois_de_février = mois_de_janvier * 1.23;
+afficher mois_de_novembre;
+afficher mois_de_février;
+
+Correction = compute_v1.0.php

@@ -1,0 +1,24 @@
+################################################################################
+#                                                                              #
+#                                  VAR                                         #
+#                                                                              #
+################################################################################
+CONSIGNE:
+Ecrire un programme qui affichera un ticket de caisse.
+Vous devez afficher le cout total pour chaques produits et le cout total du
+panier.
+Infos:
+kg de pommes = 1 euro
+kg de pates = 2 euro
+kg de riz = 50 centimes
+On achete 2 kg de pommes
+5.5 kg de pates
+10 kg de riz
+
+Code de départ:
+variable kilodepomme = 1
+variable kilodepate = 2
+variable kiloderiz = 0.50
+afficher("Prix d'un kilo de pomme: " + pomme)
+afficher("Prix d'un kilo de pate: " + pate)
+afficher("Prix d'un kilo de riz: " + riz)

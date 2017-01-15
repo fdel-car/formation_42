@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Balloon</title>
+        <style>
+            #round {
+               width: 200px;
+               height: 200px;
+               background: red;
+               border-radius: 50%;
+              }
+              </style>
+            <script>
+            var i = 0;
+            var color = Array('red', 'green', 'blue');
+
+            function balloon()
+            {
+              i++;
+              if (i > 2)
+                i = 0;
+              var obj = document.getElementById("round");
+              var width = obj.offsetWidth;
+              if (width <= 410)
+              {
+                obj.style.height = width + 10 + 'px';
+                obj.style.width = width + 10 + 'px';
+                obj.style.background = color[i];
+              }
+              else
+              {
+                obj.style.height = "200px";
+                obj.style.width = "200px";
+                obj.style.background = color[i];
+              }
+            }
+            function decrease()
+            {
+              i--;
+              if (i < 0)
+                i = 2;
+              var obj = document.getElementById("round");
+              var width = obj.offsetWidth;
+              if (width >= 205)
+              {
+                obj.style.height = width - 5 + 'px';
+                obj.style.width = width - 5 + 'px';
+                obj.style.background = color[i];
+              }
+             }
+
+            </script>
+    </head>
+
+    <body>
+            <div id="round" onclick="balloon()" onmouseout="decrease()"></div>
+    </body>
+</html>

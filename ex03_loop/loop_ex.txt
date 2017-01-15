@@ -1,0 +1,11 @@
+################################################################################
+#                                                                              #
+#                                  BOUCLE                                      #
+#                                                                              #
+################################################################################
+
+CONSIGNE:
+Afficher 50 fois "Je ne copirais pas sur mon voisin" séparé par un retour à la
+ligne
+Code de départ:
+afficher("Je ne copierais pas sur mon voisin");

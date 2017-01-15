@@ -1,0 +1,43 @@
+Veuillez souffler dans le ballon
+
+Pour cet exercice nous allons gonfler un ballon.
+
+Créez en HTML/CSS un div de 200px par 200px avec en couleur de fond le rouge. Ses bordures seront arrondies afin de créer un rond parfait et non plus un carré. Ce div sera donc notre ballon.
+
+Lors d’un clic sur le ballon, sa taille augmentera de 10px tout en gardant sa forme arrondie.
+En rêgle générale ce type de ballon est plutôt résitant mais si sa taille est supérieure à 420px, il "explose" et reprend sa taille initiale.
+
+<!doctype html>
+<html>
+    <head>
+        <title>Balloon</title>
+        <style>
+            #round {
+               width: ...;
+               height: ...;
+               background: ...;
+               border-radius: ...;
+              }
+        </style>
+        <script>
+
+        	function balloon()
+            {
+            	var obj = document.getElementById("round");
+              	var width = obj.offsetWidth;
+              	if (...)
+              	{
+					...;
+              	}
+              	else
+              	{
+					...;
+              	}
+            }
+        </script>
+    </head>
+
+    <body>
+            <div id="round" onclick="balloon()"></div>
+    </body>
+</html>
